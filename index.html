@@ -5,7 +5,7 @@
 	<script>
 		function checkAnswer() {
 			var answer = document.getElementById("answer").value.toLowerCase();
-			if (answer === "pencil lead") {
+			if (answer === "el sol") {
 				document.getElementById("picture").style.display = "block";
 			} else {
 				alert("Sorry, that's not the correct answer.");
@@ -15,7 +15,7 @@
 </head>
 <body>
 	<h1>Can you solve this riddle?</h1>
-	<p>I am taken from a mine, and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?</p>
+	<p>De día estoy en el cielo, de noche estoy en el suelo.</p>
 	<input type="text" id="answer">
 	<button onclick="checkAnswer()">Submit</button>
 	<div id="picture" style="display:none;">
